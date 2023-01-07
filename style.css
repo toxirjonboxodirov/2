@@ -1,0 +1,16 @@
+div{
+    height: 300px;
+    width: 400px;
+    background-color: orangered;
+    transition: width 10s, height 5s, transform 2s;
+    text-align: center;
+    text-decoration: dashed;
+    position: absolute;
+    transition-timing-function: linear;
+    
+}
+div:hover{
+    width: 500px;
+    height: 200px;
+    transform: rotate(180deg);
+}
